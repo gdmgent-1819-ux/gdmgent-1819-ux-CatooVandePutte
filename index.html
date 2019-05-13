@@ -1,12 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eindopdracht UX</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
+    <header class="">
+        <div class="navigation">
+            <div class="logo">
+                <a href="#"><img class="logo1" src="./foto/LOGO.png"></a>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li><a id="active" href="#">HOME</a></li>
+                    <li><a href="#kam">KAMERS</a></li>
+                    <li><a href="#fot">FOTO'S</a></li>
+                    <li><a href="#loc">LOCATIE</a></li>
+                    <li><a href="#rev">REVIEWS</a></li>
+                    <li><a href="#con">CONTACT</a></li>
+                    <li><a id="kader" href="#res">RESERVEREN</a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="#meer"><i class="fas fa-arrow-circle-down fa-3x"></i></a>
+        <div class="welcome">
+            <h1>Welkom bij b&b Brugge</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Quibusdam corporis doloremque fugiat veniam at maior.</h3>
+        </div>
+        <div class="card">
+            <div class="aankomst">
+                <p>AANKOMST</p>
+                <p>VERTREK</p>
+            </div>
+            <div class="datum">
+                <p>14</p>
+                <p id="zestien">16</p>
+            </div>
+            <div class="APRIL">
+                <p>APRIL</p>
+                <p>APRIL</p>
+            </div>
+            <a id="dont" href="#">
+                <div class="knop1">
+                    <p>CHECK BESCHIKBAARHEID</p>
+                </div>
+            </a>
+            <div class="onderstedeel">
+                <div class="map">
+                    <img src="./foto/GOOGLE MAPS.png">
+                </div>
+
+                <div class="kaartSat">
+                    <p>Kaart</p>
+                    <p id="sat">Satelliet</p>
+                </div>
+                <div class="expand">
+                    <i class="fas fa-expand fa-2x"></i>
+                </div>
+                <div class="plus">
+                    <i class="fas fa-plus fa-2x"></i>
+                </div>
+                <div class="min">
+                    <i class="fas fa-minus fa-2x"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <main id="meer">
+        <div id="kam" class="test"><span class="sp">ONZE KAMERS</span></div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="roomphoto"><img id="kamer" src="./foto/kamer.png"></div>
+                <h2>LUXE TWEEPERSOONSKAMER</h2>
+                <p>Vanaf <span class="nadruk">155 EUR</span> per nacht</p>
+                <div class="knop">CHECK BESCHIKBAARHEID</div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="roomphoto"><img id="kamer" src="./foto/christopher-jolly-616571-unsplash.jpg"></div>
+                <h2>XL TWEEPERSOONSKAMER</h2>
+                <p>Vanaf <span class="nadruk">130 EUR</span> per nacht</p>
+                <div class="knop">CHECK BESCHIKBAARHEID</div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="roomphoto"><img id="kamer" src="./foto/bed-bedroom-carpet-90317.jpg"></div>
+                <h2>BASIC TWEEPERSOONSKAMER</h2>
+                <p>Vanaf <span class="nadruk">100 EUR</span> per nacht</p>
+                <div class="knop">CHECK BESCHIKBAARHEID</div>
+            </div>
+
+        </div>
+        <div id="fot" class="test"><span class="sp">FOTO'S</span></div>
+        <div class="fotos">
+            <img class="allphotos" src="foto/joao-marcelo-martins-698552-unsplash.jpg">
+        </div>
+        <div class="arrowleft"><i class="fas fa-arrow-circle-left fa-3x"></i></div>
+        <div class="arrowright"><i class="fas fa-arrow-circle-right fa-3x"></i></div>
+
+
+        <div id="loc" class="test"><span class="sp">LOCATIE</span></div>
+        <div class="location">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <div class="ph"><img src="foto/map.png"></div>
+                    <div class="kaartSat">
+                        <p>Kaart</p>
+                        <p id="sat">Satelliet</p>
+                    </div>
+                    <div class="expand">
+                        <i class="fas fa-expand fa-2x"></i>
+                    </div>
+                    <div class="plus">
+                        <i class="fas fa-plus fa-2x"></i>
+                    </div>
+                    <div class="min">
+                        <i class="fas fa-minus fa-2x"></i>
+                    </div>
+                </div>
+                <div class="textLocation">
+                    <div class="col-6 col-md-4">
+                        <h1>ADRES</h1>
+                        <p class="adress">Wevershof 56 <br>
+                            8000 BRUGGE</p>
+                        <h1>BEREIKBAARHEID</h1>
+                        <div class="iconBus"><i class="fas fa-bus fa-2x"></i> </div>
+                        <h3>Met het openbaar vervoer:</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis corrupti dolor,
+                            praesentium rerum odit recusandae sapiente consequatur. Et cupiditate inventore quas
+                            praesentium similique recusandae eligendi exercitationem odio! Necessitatibus, laborum
+                            doloribus!</p>
+                        <div class="iconCar"><i class="fas fa-car-side fa-2x"></i></div>
+                        <h3>Met de auto:</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cumque omnis rem dolorem quo
+                            voluptas eius suscipit. Minima, animi deserunt, quas numquam dolores at aliquam dolorem
+                            fugit vitae sunt exercitationem?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rev" class="test"><span class="sp">REVIEWS</span></div>
+        <div class="reviews">
+            <p id="nameRev">Maarten:</p>
+            <p id="daysRev">2 dagen geleden</p>
+            <p id="reviewtxt">“Super B&B, zeker aan te raden!<br>
+                Ligging, ontbijt en kamers: allemaal super!”</p>
+            <div class="arrowleft"><i class="fas fa-arrow-circle-left fa-3x"></i></div>
+            <div class="arrowright"><i class="fas fa-arrow-circle-right fa-3x"></i></div>
+        </div>
+        <div class="reviewPhoto"><img src="foto/foto-sushi-128246-unsplash.jpg"></div>
+
+
+
+        <div id="res" class="test"><span class="sp">RESERVEREN</span></div>
+        <div class="reservations">
+            <div class="card2">
+                <div class="aankomst">
+                    <p>AANKOMST</p>
+                    <p>VERTREK</p>
+                </div>
+                <div class="datum">
+                    <p>14</p>
+                    <p id="zestien">16</p>
+                </div>
+                <div class="APRIL">
+                    <p>APRIL</p>
+                    <p>APRIL</p>
+                </div>
+                <div class="aantalPers">Aantal personen <i class="fas fa-chevron-down"></i></div>
+                <a id="dont" href="#">
+                    <div class="knop1">
+                        <p>CHECK BESCHIKBAARHEID</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="con" class="test"><span class="sp">CONTACT</span></div>
+        <div class="contactbox">
+            <div class="leftContact">
+                <p>Heb je een vraag? <br>
+                    Contacteer ons en wij antwoorden zo spoedig mogelijk.</p>
+                <div class="emname">
+                    <form class="email">
+                        E-mail* <br>
+                        <input type="text" name="email">
+                    </form>
+                    <form class="name">
+                        Naam <br>
+                        <input type="text" name="name">
+                    </form>
+                </div>
+                <form class="bericht">
+                    Bericht*
+                    <input type="text" name="bericht">
+                </form>
+                <a href="#">
+                    <p class="btn">VERSTUREN</p>
+                </a>
+            </div>
+            <div class="rightContact">
+                <p class="emailadres">contact@bedandbreakfastbru.be</p>
+                <p class="tel">+32 454 23 20 21 </p>
+                <p class="adres">Wevershof 56, 8000 Brugge</p>
+                <i class="fas fa-at fa-2x"></i>
+                <i class="fas fa-mobile-alt fa-2x"></i>
+                <i class="fas fa-map-pin fa-2x"></i>
+            </div>
+            <a href="#"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <p>© BED AND BREAKFAST BRUGGE</p>
+            <p>Wevershof 56, 8000 Brugge</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
